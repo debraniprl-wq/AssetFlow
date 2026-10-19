@@ -1,6 +1,6 @@
 # 🏢 AssetFlow — Enterprise Asset & Resource Management System
 
-![AssetFlow Dashboard](screenshots/assetflow-dashboard.png)
+![AssetFlow Dashboard](assetflow-dashboard.png)
 
 A modern Enterprise Asset & Resource Management System designed to help organizations manage assets, allocate resources, track maintenance activities, monitor utilization, and streamline operational workflows through a centralized platform.
 
