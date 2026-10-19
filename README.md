@@ -1,69 +1,40 @@
-# 🚀 AssetFlow — Enterprise Asset & Resource Management System
+# 🏢 AssetFlow — Enterprise Asset & Resource Management System
 
-<p align="left">
+![AssetFlow Dashboard](screenshots/assetflow-dashboard.png)
 
-![Web App](https://img.shields.io/badge/Web-Application-blue)
-![Asset Management](https://img.shields.io/badge/Asset-Management-2E8B57)
-![Resource Management](https://img.shields.io/badge/Resource-Management-blueviolet)
-![Deployment](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)
+A modern Enterprise Asset & Resource Management System designed to help organizations manage assets, allocate resources, track maintenance activities, monitor utilization, and streamline operational workflows through a centralized platform.
 
-</p>
-
-<p align="center">
-  <img src="screenshots/assetflow-dashboard.png" alt="AssetFlow Dashboard" width="100%">
-</p>
-
-AssetFlow is a modern web application designed to simplify enterprise asset management, resource allocation, and operational workflows. It aims to provide a centralized platform for tracking assets, organizing resources, and improving visibility into resource utilization through a clean and intuitive interface.
+---
 
 ## 🚀 Live Demo
 
-🔗 **Live Demo:** [Open AssetFlow](https://asset-flow-pied-rho.vercel.app/)
+🔗 https://asset-flow-pied-rho.vercel.app/
 
 ---
 
 ## ✨ Features
 
-- 📊 Centralized dashboard for asset-related information
-- 📦 Asset tracking and management
-- 👥 Resource allocation and assignment
-- 🔧 Asset maintenance management
-- 📅 Resource booking and availability management
-- 📈 Asset utilization insights and analytics
-- 🔐 User access and management workflows
-- 🎨 Modern and intuitive user interface
-- 📱 Responsive design for different screen sizes
+- 📊 Centralized Asset Management Dashboard
+- 📦 Asset Registration and Tracking
+- 👥 Resource Allocation and Management
+- 🔧 Asset Maintenance Tracking
+- 📅 Resource Booking and Availability
+- 📈 Asset Utilization Analytics
+- 📉 Resource Status Monitoring
+- 🔍 Organized Navigation and Search
+- 📱 Responsive User Interface
+- ☁️ Centralized Data Management
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **Frontend:** Add the actual framework or technologies used
-- **Styling:** Add the actual styling technologies used
-- **Backend:** Add the backend technology, if applicable
-- **Database:** Add the database used, if applicable
+- **Frontend:** Update with the technologies used
+- **Framework:** Update with the framework used
+- **Styling:** Update with the styling tools used
+- **Backend:** Update if applicable
+- **Database:** Update with the database used
 - **Deployment:** Vercel
-
----
-
-## 📸 Screenshots
-
-### Dashboard
-
-<p align="center">
-  <img src="screenshots/assetflow-dashboard.png" alt="AssetFlow Dashboard" width="100%">
-</p>
-
-### Asset Management
-
-<p align="center">
-  <img src="screenshots/asset-management.png" alt="Asset Management" width="100%">
-</p>
-
-### Resource Management
-
-<p align="center">
-  <img src="screenshots/resource-management.png" alt="Resource Management" width="100%">
-</p>
 
 ---
 
@@ -71,76 +42,90 @@ AssetFlow is a modern web application designed to simplify enterprise asset mana
 
 ```text
 AssetFlow/
-│── public/                 # Static assets, if applicable
-│── src/                    # Application source code, if applicable
-│── screenshots/            # Project screenshots
-│── package.json            # Dependencies, if applicable
-│── README.md
+│
+├── public/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
+│   └── ...
+│
+├── screenshots/
+│   └── assetflow-dashboard.png
+│
+├── package.json
+├── README.md
+└── ...
 ```
 
-*Update the project structure according to the actual repository files.*
+*Note: Update the project structure above to match your actual repository.*
 
 ---
 
 ## ⚙️ Installation
 
-1. **Clone the repository**
+### Clone Repository
 
 ```bash
-git clone https://github.com/debraniprl-wq/AssetFlow.git
+git clone YOUR_REPOSITORY_URL
 ```
 
-2. **Navigate to the project folder**
+### Navigate to Project
 
 ```bash
 cd AssetFlow
 ```
 
-3. **Install dependencies**
+### Install Dependencies
 
-Follow the installation instructions for the framework and package manager used in this project.
+```bash
+npm install
+```
 
-4. **Configure environment variables**
+### Configure Environment Variables
 
-If the application uses a backend or database, configure the required environment variables in your local environment.
+If your project uses Supabase or another backend, create a `.env.local` file in the project root and add the required environment variables.
 
-5. **Run the application**
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
+```
 
-Use the development command specified in your project's configuration.
+*Use these variables only if your source code references these exact names.*
 
----
+### Run Locally
 
-## ▶️ Usage
+```bash
+npm run dev
+```
 
-1. Open the AssetFlow web application.
-2. Navigate through the available dashboard and management sections.
-3. Explore the asset and resource management workflows.
-4. Use the available features to organize and monitor resources.
-
-*Available actions depend on the features implemented in the application.*
-
----
-
-## 🔮 Future Improvements
-
-- Advanced asset search and filtering
-- Automated maintenance reminders
-- Detailed analytics and reporting
-- Notifications and activity tracking
-- Role-based access control
-- Exportable asset reports
-- Improved resource allocation workflows
+Open http://localhost:3000 in your browser if the project uses the default Next.js development configuration.
 
 ---
 
-## 🤝 Contributing
+## 🎯 Use Case
 
-Contributions and suggestions are welcome!
+AssetFlow aims to help organizations:
 
-1. Fork this repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Open a Pull Request.
+- Maintain organized records of organizational assets.
+- Monitor asset availability and allocation.
+- Track maintenance activities and asset status.
+- Manage shared resources more efficiently.
+- Improve visibility into resource utilization.
+- Reduce manual record-keeping and operational complexity.
+
+---
+
+## 🚀 Future Improvements
+
+- 📦 Advanced Asset Search and Filtering
+- 🔔 Automated Maintenance Notifications
+- 📊 Advanced Analytics and Report Export
+- 📅 Smart Resource Scheduling
+- 📉 Asset Utilization Forecasting
+- 🔐 Enhanced Role-Based Access Control
+- 📱 Improved Mobile Experience
+- 📋 Asset History and Audit Logs
 
 ---
 
@@ -148,10 +133,8 @@ Contributions and suggestions are welcome!
 
 **Agnimita Dey**
 
-🔗 **GitHub Profile:** [debraniprl-wq](https://github.com/debraniprl-wq/)
+GitHub: https://github.com/debraniprl-wq
 
 ---
 
-⭐ If you find this project useful, consider giving the repository a star.
-
-**Built to make asset and resource management more organized, transparent, and efficient.**
+*Managing resources efficiently through technology and innovation.*
